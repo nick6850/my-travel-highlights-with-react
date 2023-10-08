@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+navbar {
+    height: 10vh;
+    width: 100vw;
+    background-color: #F6595A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+navbar > img {
+    height: 65%;
+}
+
+.card {
+    margin: 50px auto;
+    width: 70vw;
+    max-width: 950px;
+    display: flex;
+    gap: 50px;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.location {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.city {
+    letter-spacing: 1px;
+}
+
+.card a {
+    color: grey;
+    margin-left: 15px;
+}
+
+.container {
+    align-self:center;
+}
+
+.place {
+    width: max-content;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+#place-img{
+    width: 30vw;
+    height: 30vw;
+    max-width: 325px;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#location-icon{
+    width: 20px;
+}
+
+.description {
+    margin-top: 5px;
+    color: rgb(49, 49, 49);
+}
+
